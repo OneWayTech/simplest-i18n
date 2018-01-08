@@ -1,0 +1,37 @@
+{
+  "name": "simplest-i18n",
+  "description": "The simplest universal i18n solution",
+  "author": "Ken Berkeley <kenberkeley@foxmail.com>",
+  "version": "1.0.0",
+  "main": "i18n.min.js",
+  "scripts": {
+    "lint": "standard i18n.js",
+    "prebuild": "npm run lint",
+    "build": "uglifyjs i18n.js -c -m -o i18n.min.js",
+    "pretest": "npm run lint",
+    "test": "ava test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenberkeley/simplest-i18n.git"
+  },
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "isomorphic",
+    "locale",
+    "localization",
+    "globalization",
+    "simple",
+    "simplest",
+    "translate",
+    "translation",
+    "universal"
+  ],
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "standard": "^10.0.3",
+    "uglify-js": "^3.3.5"
+  },
+  "license": "MIT"
+}
