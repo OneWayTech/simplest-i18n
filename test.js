@@ -1,5 +1,5 @@
 import test from 'ava'
-import i18n from './i18n'
+import i18n from './'
 
 // name as `$t`, avoid conflicting with `t` of ava
 const $t = i18n({

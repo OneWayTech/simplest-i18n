@@ -1,15 +1,17 @@
 {
   "name": "simplest-i18n",
-  "description": "The simplest universal i18n solution",
+  "description": "The Simplest Universal i18n Solution",
   "author": "Ken Berkeley <kenberkeley@foxmail.com>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "i18n.min.js",
   "scripts": {
     "lint": "standard i18n.js",
     "prebuild": "npm run lint",
     "build": "uglifyjs i18n.js -c -m -o i18n.min.js",
     "pretest": "npm run lint",
-    "test": "ava test.js"
+    "test": "ava test.js",
+    "vue": "poi examples/vue/app.js",
+    "react": "poi --jsx react examples/react/app.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,10 @@
   ],
   "devDependencies": {
     "ava": "^0.24.0",
+    "js-cookie": "^2.2.0",
+    "poi": "^9.6.12",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "standard": "^10.0.3",
     "uglify-js": "^3.3.5"
   },
