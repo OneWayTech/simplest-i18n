@@ -2,7 +2,7 @@
   "name": "simplest-i18n",
   "description": "The Simplest Universal i18n Solution",
   "author": "Ken Berkeley <kenberkeley@foxmail.com>",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "i18n.min.js",
   "scripts": {
     "lint": "standard i18n.js",
