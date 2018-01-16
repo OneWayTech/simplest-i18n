@@ -53,7 +53,7 @@ There are code examples for React and Vue in [`examples/`](./examples/)
 Check it out and run it with the following directives:
 
 ```
->_ git clone https://github.com/kenberkeley/simplest-i18n.git
+>_ git clone https://github.com/OneWayTech/simplest-i18n.git
 >_ npm i
 >_ npm run react (or npm run vue)
 ```
@@ -155,5 +155,5 @@ export default function pluralize(nouns, num) {
 [npm-url]: https://www.npmjs.com/package/simplest-i18n
 [npm-v-img]: http://img.shields.io/npm/v/simplest-i18n.svg
 [npm-dl-img]: http://img.shields.io/npm/dm/simplest-i18n.svg
-[build-img]: https://travis-ci.org/kenberkeley/simplest-i18n.svg?branch=master
-[build-url]: https://travis-ci.org/kenberkeley/simplest-i18n
+[build-img]: https://travis-ci.org/OneWayTech/simplest-i18n.svg?branch=master
+[build-url]: https://travis-ci.org/OneWayTech/simplest-i18n
