@@ -58,6 +58,8 @@ Check it out and run it with the following directives:
 >_ npm run react (or npm run vue)
 ```
 
+If you doubt the practicality of this repo, please visit https://developer.oneway.mobi to see if it is serious enough :)
+
 ## § Merits
 
 ### ⊙ Keep in context
